@@ -19,6 +19,10 @@
   
   console.log(test());
   ```
+  
+  The code will print Aurelio De Rosa first:  console.log(obj.prop.getFullname()) pulls the full name variable
+  but function getFullname changes it to Aurelio De Rosa
+  The code console.log(test()); will print John Doe because it refers to the global object
 
 2. What will you see in the console for the following example?
   ```
@@ -31,6 +35,8 @@
   b(); 
   console.log(a);    
   ```
+  I will see 1 in the console consol.log(a) will print the value of a, which is equal to 1. 
+  
 
 * Create an array called ```peopleList``` objects using *Object Literal* notation. 
 
